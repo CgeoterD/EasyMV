@@ -1,6 +1,8 @@
 # EasyMV (demo)
 EasyMV - easy tool for use google model-viewer
 
+<a href="https://cgeoterd.github.io/EasyMV-example/example/index.html">Example page</a>
+
 <h3>How to use:</h3>
 <ul>
  <li>Connect model-viewer library to your project <br> EasyMV - created with model-viewer version 1.7. In the next model viewer versions can work incorrect</li>
