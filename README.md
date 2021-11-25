@@ -10,7 +10,7 @@ EasyMV - easy tool for use google model-viewer
  <li>Initialize your model-viewer tag 
   <ul>
    <li> example: let _3d = new EasyMW("model")</li>
-   <li> model - id DOM tag model viewer (<model-viewer id="model">)</li>
+   <li> model - id DOM tag model viewer (model-viewer id="model")</li>
   </ul>  
   </li>
 <li>Work (｡◕‿◕｡)</li>
@@ -30,12 +30,10 @@ numMesh - number of 3d model mesh
    <li>arrayRGBColor - need RGB color in array. (RGB item not like in css - add [0~15], you can use decimal numbers) <br>Last array index - opacity (example: [0,0,0,1]), if opacity = -1 mesh invisible.</li>
   </ul>
  </li>
-<li>setModelTexture(textureURL, numMesh) - change texture of mesh.
- <ul>
-  <li>textureURL - any url (in quotes)</li>
-</ul>
- </li>
 <li>setModelCameraOrbit(x,y,z) - change camera position</li>
+<li>setModelSrc(url) - change 3d model by upload another</li>
+<li>setCameraTarget(x,y,z) - set camera target</li>
+<li>setMaxCameraOrbit(x,y,z)) - set max camera orbit that camera can take</li>
 </ul>
 
 <h3>Recommendation:</h3>
