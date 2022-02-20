@@ -1,6 +1,6 @@
-# EasyMV (demo)
+# EasyMV
 EasyMV - easy tool for use google model-viewer
-
+<br><a href="CgeoterD.github.io/EasyMV/index.html">Preview</a>
 
 <h3>How to use:</h3>
 <ul>
@@ -22,19 +22,31 @@ numMesh - number of 3d model mesh
 
 <h3>Methods:</h3>
 <ul>
+// --- Animation --- ///
 <li>getAvailableAnimations() - return array with available animation for this 3d model</li>
+<li>getAnimationCurrentTime() - </li>
+<li>getAnimationDuration() - </li>
+<li>setAnimationTime(time) - </li>
+<li>animationStop() - </li>
+<li>animationPlay() - </li>
 <li>setAnimation(animationName) - change animation for the 3d model (animation Name - in quotes)</li>
- <li>setModelColor(arrayRGBColor, numMesh) - function for change mesh color. 
+
+// --- Variants --- ///
+<li>getAvailableVariants()- </li>
+<li>setVariant(variantName)- </li>
+
+// --- Work with mesh --- ///
+<li>setModelColor(arrayRGBColor, numMesh) - function for change mesh color. 
   <ul>
    <li>arrayRGBColor - need RGB color in array. (RGB item not like in css - add [0~15], you can use decimal numbers) <br>Last array index - opacity (example: [0,0,0,1]), if opacity = -1 mesh invisible.</li>
   </ul>
- </li>
+</li>
+
+// --- Camera position --- ///
 <li>setModelCameraOrbit(x,y,z) - change camera position</li>
-<li>setModelSrc(url) - change 3d model by upload another</li>
 <li>setCameraTarget(x,y,z) - set camera target</li>
 <li>setMaxCameraOrbit(x,y,z)) - set max camera orbit that camera can take</li>
 </ul>
-
 <h3>Recommendation:</h3>
 <ul>
  <li>Do all manipulation with a 3d model when it loaded.
