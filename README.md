@@ -1,6 +1,6 @@
 # EasyMV
 EasyMV - easy tool for use google model-viewer
-<br><a href="CgeoterD.github.io/EasyMV/index.html">Preview</a>
+<br><a href="https://cgeoterd.github.io/EasyMV/index.html">Preview</a>
 
 <h3>How to use:</h3>
 <ul>
